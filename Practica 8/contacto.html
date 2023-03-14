@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="encabezado">
+        <div id="mrnu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Nuetros productos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h2>Contactanos</h2>
+        <div">
+			<h4>Envianos un mensaje ahora!</h4>
+            <br>
+            <div>
+				<form metodo="post" nombre="contacto" accion="#">
+					<label for="autor">Nombre:</label> <input type="text" id="autor" name="autor" class="requerimientos" />
+					<div class="h10"></div>
+					<label for="email">Email:</label> <input type="text" class="validarEmail" name="email" id="email" />
+					<div class="h10"></div>
+					<label for="asunto">Asunto:</label> <input type="text" class="validarAsunto" name="asunto" id="asunto"/>
+					<div class="h10"></div>
+					<label for="text">Mensaje:</label> <textarea id="text" name="text" rows="0" cols="0" class="requerimiento"></textarea>
+					<div class="h10"></div>
+					<input type="submit" value="Enviar" id="submit" name="submit" class="submit_btn float_e" />
+					<input type="reset" value="Borrar" id="reset" name="reset" class="submit_btn float_b" />
+
+				</form>
+            </div>
+		</div>
+        </div>
+    </div>
+    <div class="piePagina">
+        <center><p>www.elpuntohelado.com</p></center>
+    </div>
+</body>
+</html>
